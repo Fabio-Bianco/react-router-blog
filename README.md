@@ -1,12 +1,72 @@
-# React + Vite
+# 📘 React Router Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esercitazione **React Router** all'interno di un'app React.
 
-Currently, two official plugins are available:
+### Obiettivo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+creare il frontend di un semplice blog con più pagine navigabili tramite una **SPA (Single Page Application)**, con il bonus di fetchare dati da una API pubblica.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologie usate
+
+- ⚛️ React
+- 🧭 React Router DOM
+- 📡 Axios
+- ⚡ Vite
+
+---
+
+## 📦 Installazione
+
+1. Clona il progetto o crealo da zero:
+   ```bash
+   npm create vite@latest
+   npm install
+   npm install react-router-dom axios
+   npm run dev
+   ```
+
+---
+
+## 📁 Struttura delle cartelle
+
+src/
+├── components/
+│ └── Navbar.jsx
+├── pages/
+│ └── Home.jsx
+│ └── About.jsx
+│ └── Posts.jsx
+├── App.jsx
+├── main.jsx
+
+---
+
+## ✅ Obiettivi
+
+Creare 3 pagine: Home, Chi siamo, Lista post
+
+Navigazione tra pagine con React Router
+
+Navbar visibile in tutte le pagine
+
+Gestione classe active nei link con NavLink
+
+Popolare la pagina dei post usando https://jsonplaceholder.typicode.com/posts
+
+---
+
+## 📚 Bonus
+
+Centralizzare layout con Outlet
+
+Gestire errori o caricamenti in Posts
+
+Aggiungere stile CSS con classi attive
+
+---
+
+### 👨‍💻 Autore
+
+Fabio-Bianco (\_b_bot)
